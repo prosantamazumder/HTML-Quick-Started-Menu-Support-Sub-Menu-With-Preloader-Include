@@ -1,4 +1,4 @@
-# How to activation jQuery Magnific Popup
+# HTML Quick Started Menu Support Sub Menu With Preloader Include
 
 **Live Demo**
 [repositories.presstechit-institute.com](http://repositories.presstechit-institute.com/HTML-Quick-Started-Menu-Support-Sub-Menu-With-Preloader-Include/)
@@ -19,7 +19,7 @@
 		&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;!-- PLRELOADER END --&gt;
+&lt;!-- PLRELOADER END --&gt;
 </code></pre>
 
 ##### PRELOADER / MOBILE MENU active.js
@@ -57,10 +57,9 @@
 
 
 ### Changelog
-- [x] Version 1.0.1
+- [x] Version 1.4.3
 
 ##### Cradit
-[Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
-
-
-
+[Bootstrap](https://getbootstrap.com/)
+[Mean Themes](https://www.meanthemes.com/plugins/meanmenu/)
+[Font Awesome](https://fontawesome.com/v4.7.0/)
