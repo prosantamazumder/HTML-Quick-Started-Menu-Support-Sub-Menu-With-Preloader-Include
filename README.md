@@ -1,7 +1,7 @@
 # How to activation jQuery Magnific Popup
 
 **Live Demo**
-[repositories.presstechit-institute.com](repositories.presstechit-institute.com/HTML Quick Started Menu Support Sub Menu With Preloader Include)
+[repositories.presstechit-institute.com](http://repositories.presstechit-institute.com/HTML-Quick-Started-Menu-Support-Sub-Menu-With-Preloader-Include/)
 
 ## Initialize Magnific Popup Plugin
 
