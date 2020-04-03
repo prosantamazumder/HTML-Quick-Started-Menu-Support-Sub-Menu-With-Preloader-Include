@@ -1,35 +1,45 @@
 # How to activation jQuery Magnific Popup
 
+**Live Demo**
 
-**bold text**
-
-*italicized text*
-> blockquote
 
 ## Initialize Magnific Popup Plugin
 
-##### index.html
+##### Preloader Markup
 
 <pre><code>
-    &lt;div class="popup-container"&gt;
-        &lt;a href="images_path_here"&gt;
-            &lt;img src="images_path_here" alt="" /&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
+    <!-- PRELOADER -->
+    <div class="loader-popover" id="loader">
+        <div class="loader">
+            <div class="loader-container">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- PLRELOADER END -->
 </code></pre>
 
-##### active.js
+##### PRELOADER / MOBILE MENU active.js
 
 <pre><code>
-     $('.popup-container').magnificPopup({
-        delegate: 'a',
-        type:'image',
-        gallery:{enabled:true},
-        zoom:{
-            enabled:true,
-            duration: 300,
-            easing: 'ease-in-out'
-        }
+        /**!-------------------------------------------
+        01. PRELOADER
+    --------------------------------------------**/
+    var $mainwindow = $(window);
+    $mainwindow.on('load', function() {
+
+        $("#loader").fadeOut(1000);
+    });
+    
+    /*-------------------------------
+    MOBILE MENU
+    ---------------------------------*/
+    $('.mobile-menu nav').meanmenu({
+        meanScreenWidth: "981",
+        meanMenuContainer: ".mobile-menu"
     });
 </code></pre>
     
