@@ -8,18 +8,18 @@
 ##### Preloader Markup
 
 <pre><code>
-    <!-- PRELOADER -->
-    <div class="loader-popover" id="loader">
-        <div class="loader">
-            <div class="loader-container">
-                <div class="box1"></div>
-                <div class="box2"></div>
-                <div class="box3"></div>
-                <div class="box4"></div>
-            </div>
-        </div>
-    </div>
-    <!-- PLRELOADER END -->
+    &lt;!-- PRELOADER --&gt;
+	&lt;div class="loader-popover" id="loader"&gt;
+				&lt;div class="loader"&gt;
+					&lt;div class="loader-container"&gt;
+					&lt;div class="box1"&gt;&lt;/div&gt;
+					&lt;div class="box2"&gt;&lt;/div&gt;
+					&lt;div class="box3"&gt;&lt;/div&gt;
+					&lt;div class="box4"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;!-- PLRELOADER END --&gt;
 </code></pre>
 
 ##### PRELOADER / MOBILE MENU active.js
