@@ -3,8 +3,6 @@
 **Live Demo**
 [repositories.presstechit-institute.com](http://repositories.presstechit-institute.com/HTML-Quick-Started-Menu-Support-Sub-Menu-With-Preloader-Include/)
 
-## Initialize Magnific Popup Plugin
-
 ##### Preloader Markup
 
 <pre><code>
